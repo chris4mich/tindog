@@ -1,0 +1,197 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;
+ }
+
+h1 {
+font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+  font-size: 1.5;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Montserrat-light', sans-serif;
+  color: #8f8f8f;
+}
+
+/* Sections */
+
+.color-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* Navigation Bar */
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+  padding: 0 20px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+/* Title section */
+
+#title {
+  position: relative;
+  z-index: 0;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+.iphone {
+  width: 110%;
+}
+
+}
+
+.iphone {
+  width: 60%;
+  transform: rotate(15deg);
+  position: relative;
+  left: 25%;
+  z-index: -1;
+}
+
+/* Icons */
+
+.icons {
+  color: red;
+  padding-bottom: 10%;
+}
+
+.icons:hover {
+color: #3B0000;
+}
+
+/* icons Div */
+
+#features {
+  padding: 7% 15%;
+
+  position: relative;
+  bottom: 140px;
+  z-index: 1;
+}
+
+.feature-box {
+  margin: auto;
+  padding: 5%;
+  text-align: center;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  padding: 3% 10% 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/* CTA */
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  }
+
+  .cta-heading {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+
+/* footer */
+
+#footer {
+  padding: 50px;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.contact-icons {
+  margin: auto;
+  padding: 0 6% 0;
+}
